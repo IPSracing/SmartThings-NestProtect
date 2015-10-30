@@ -76,6 +76,11 @@ preferences {
  
  // for the UI
 metadata {
+           definition (name: "Nest", namespace: "smartthings-users", author: "MikeM@120a97.com") {
+		capability "Polling"
+                capability "Presence Sensor"
+		capability "Sensor"
+}
     simulator {
         // TODO: define status and reply messages here
     }
